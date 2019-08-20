@@ -1,0 +1,26 @@
+{
+  "name": "automation-challenge",
+  "version": "1.0.1",
+  "main": "index.js",
+  "dependencies": {
+    "jasmine": "^3.2.0"
+  },
+  "devDependencies": {
+    "log4js": "^4.0.2",
+    "log4js-protractor-appender": "^1.1.2",
+    "@types/highcharts": "5.0.13",
+    "@types/jasmine": "2.8.9",
+    "@types/node": "10.12.2",
+    "@types/selenium-webdriver": "^2.53.32",
+    "faker": "4.1.0",
+    "jasmine": "^3.2.0",
+    "protractor": "5.4.2",
+    "webdriverjs-retry": "0.2.0",
+    "typescript": "^3.0.3"
+  },
+  "scripts": {
+    "test": "protractor conf.js"
+  },
+  "author": "brandon",
+  "license": "ISC"
+}
